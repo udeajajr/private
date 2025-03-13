@@ -1,0 +1,103 @@
+.background {
+    background-color: orange;
+  }
+  .bd{
+    margin-top: 50px;
+  }
+
+  .flexbox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+  @media(max-width:300px){
+    #body{
+      align-items: center;
+    }
+    .pp{
+      padding-right: 100px;
+    }
+  }
+  .flexbox2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+  }
+
+  .home {
+    font-size: 11px;
+  }
+
+  .home-cards {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+
+  }
+
+  .text {
+    font-size: 1px;
+    margin-left: 15px;
+    align-items: 20px;
+  }
+
+  .sus {
+    margin: 5px;
+  }
+
+  .sus:hover {
+    color: white;
+    background-color: orange;
+  }
+
+  .hover {
+    color: black;
+    transition: color 4s, transform 4s, transform 4s ease;
+  }
+
+  .social {
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+  
+  }
+  .hover:hover {
+    color: orange;
+    transform: translateX(50px)
+  }
+
+  .cold {
+    background-color: white;
+  }
+
+  .luc {
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+  }
+
+  .kim {
+    width: 200px;
+    margin-left: 50px;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .cardtext {
+    padding-left: 50px;
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+  }
